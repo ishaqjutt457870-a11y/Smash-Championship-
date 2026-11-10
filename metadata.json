@@ -1,0 +1,6 @@
+{
+  "name": "Smash Championship",
+  "description": "Badminton league tournament management app with player registration, round-robin fixtures, live standings table, knockout playoffs, and match history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

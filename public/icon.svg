@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#103b29"/>
+      <stop offset="100%" stop-color="#0a2419"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+
+  <!-- Subtle court lines in background -->
+  <rect x="76" y="76" width="360" height="360" rx="32" fill="none" stroke="#165338" stroke-width="6" opacity="0.4"/>
+  <line x1="76" y1="256" x2="436" y2="256" stroke="#165338" stroke-width="4" opacity="0.4"/>
+  <line x1="256" y1="76" x2="256" y2="436" stroke="#165338" stroke-width="4" opacity="0.4"/>
+
+  <!-- Central Shuttlecock & Trophy Motif -->
+  <!-- Shuttlecock feathers -->
+  <path d="M196 160 L256 96 L316 160 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M166 220 L196 160 L316 160 L346 220 Z" fill="#f0fdf4" opacity="0.9"/>
+  <!-- Feather bands -->
+  <path d="M180 180 Q256 200 332 180" stroke="#10b981" stroke-width="6" fill="none"/>
+  <path d="M170 210 Q256 230 342 210" stroke="#059669" stroke-width="8" fill="none"/>
+
+  <!-- Cork head -->
+  <circle cx="256" cy="270" r="44" fill="url(#gold)"/>
+  <path d="M226 270 Q256 250 286 270" stroke="#b45309" stroke-width="4" fill="none"/>
+
+  <!-- Victory Laurel Wreath around Cork -->
+  <path d="M160 300 Q140 370 200 410 Q230 424 256 424 Q282 424 312 410 Q372 370 352 300" 
+        stroke="url(#gold)" stroke-width="12" stroke-linecap="round" fill="none"/>
+
+  <!-- Small Gold Stars -->
+  <polygon points="256,432 261,446 276,446 264,455 268,469 256,460 244,469 248,455 236,446 251,446" fill="url(#gold)"/>
+</svg>
